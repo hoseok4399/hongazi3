@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+}
+a{text-decoration: none;
+    color:#000;
+}
+
+ol,ul{list-style: none;
+    font-family: Georgia, serif;
+}
+
+div.big{
+    background-color : rgb(127,219,255);
+    width: 90%;
+    height: 350px;
+    margin: 150px 0 0 5%;}
+
+
+    div.big div.first {
+        background-color: rgb(195,255,210); 
+        width: 500px;
+        height: 350px;
+        margin: 0 0 0 120px;
+        float:left;
+    }
+
+    div.big div.second{
+        background-color: bisque; 
+        margin-left: 15px;
+        width: 500px;
+        height: 100%;
+        float: left;
+    }
+
+        div.big div.second div.name{
+            background-color:rgb(255,185,209); 
+            height: 60%;
+            font-size:50px;}
+            div.big div.second div.name p {
+                font-family : Georgia, 'Times New Roman', Times, serif;
+                font-weight : bold;
+            }
+            
+            
+    
+
+        div.big div.second div.profile {
+            height: 40%;
+        }
+
+            div.big div.second div.profile ol{
+                font-family : Georgia, 'Times New Roman', Times, serif;
+                font-style : italic;
+                font-size: 15px;
+            }
